@@ -126,12 +126,13 @@ body {
   justify-content: center;
   align-items: center;
   animation: slideInRight 1.2s ease-out;
+  margin-top: -12rem;
 }
 
 .hero-photo img {
   max-width: 100%;
   height: auto;
-  max-height: 400px;
+  max-height: 1200px;
   border-radius: 12px;
 }
 
@@ -314,7 +315,7 @@ body {
   }
 
   .hero-photo img {
-    max-height: 280px;
+    max-height: 360px;
     width: auto;
   }
 
