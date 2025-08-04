@@ -398,8 +398,13 @@ body {
 }
 
 .contact-box a {
+  color: #ebebeb;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-box a:hover {
   color: #3db2ff;
-  text-decoration: underline;
 }
 /*CONTACT PAGE -- END*/
 
