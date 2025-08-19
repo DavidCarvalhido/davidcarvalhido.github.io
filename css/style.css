@@ -391,15 +391,17 @@ body {
   color: #3db2ff;
 }
 
-.contact-info p {
+.contact-info strong {
   margin-bottom: 2rem;
-  font-size: 1.1rem;
+  font-size: 1.7rem;
   line-height: 1.6;
+  color: #ebebeb;
 }
 
 .contact-info a {
   color: #3db2ff;
   text-decoration: none;
+  font-size: 1.2rem;
 }
 
 .contact-info a:hover {
