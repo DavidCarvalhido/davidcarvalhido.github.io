@@ -385,6 +385,12 @@ body {
   max-width: 400px;
 }
 
+.contact-item {
+  margin: 10px 0;
+  font-size: 1rem;
+  padding-bottom: 40px;
+}
+
 .contact-info h2 {
   font-size: 2rem;
   margin-bottom: 2rem;
@@ -461,6 +467,59 @@ body {
   top: -90px;
   right: 160px;
   animation-delay: 0.8s;
+}
+
+.tooltip {
+  position: relative;
+  color: #0077b6;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease-in-out;
+}
+
+/*.tooltip:hover {
+  color: #023e8a;
+}*/
+
+/* Estilo do tooltip */
+.tooltip .tooltip-text {
+  visibility: hidden;
+  opacity: 0;
+  width: max-content;
+  max-width: 200px;
+  background: linear-gradient(135deg, #00b4d8, #0077b6);
+  color: #fff;
+  text-align: center;
+  padding: 6px 12px;
+  border-radius: 6px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 130%;
+  white-space: nowrap;
+  box-shadow: 0 4px 10px #00000033;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  font-size: 0.9rem;
+  z-index: 10;
+}
+
+/* setinha em baixo */
+.tooltip .tooltip-text::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 6px;
+  border-style: solid;
+  border-color: #0077b6 transparent transparent transparent;
+}
+
+/* Mostrar tooltip */
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(-50%) translateY(-4px);
 }
 /*CONTACT PAGE -- END*/
 
