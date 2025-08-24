@@ -48,6 +48,25 @@
         <section class="blue-bar">
             <h2>Turning Data into Insights</h2>
         </section>
+        <!-- Tools Carousel -->
+        <section class="tools-carousel">
+            <div class="logos">
+                <div class="logos-slide">
+                    <img src="./public/logos/python-logo.svg" alt="Python Logo" />
+                    <img src="./public/logos/postgresql-logo.svg" alt="PostgreSQL Logo" />
+                    <img src="./public/logos/gcp-logo.svg" alt="GCP Logo" />
+                    <img src="./public/logos/power-bi-logo.svg" alt="Power BI Logo" />
+                    <img src="./public/logos/pentaho-logo.svg" alt="Pentaho Logo" />
+                    <img src="./public/logos/apache-airflow-logo.svg" alt="Apache Airflow Logo" />
+                    <img src="./public/logos/apache-spark-logo.svg" alt="Apache Spark Logo" />
+                    <img src="./public/logos/apache-kafka.svg" alt="Apache Kafka Logo" />
+                    <img src="./public/logos/mysql-logo.svg" alt="MySQL Logo" />
+                    <img src="./public/logos/numpy-logo.svg" alt="Numpy Logo" />
+                    <img src="./public/logos/pandas-logo.svg" alt="Pandas Logo" />
+                    <img src="./public/logos/git-logo.svg" alt="Git Logo" />
+                </div>
+            </div>
+        </section>
         <!-- Footer -->
         <footer class="footer-site">
             <div class="footer-container">
@@ -82,5 +101,9 @@
             </div>
         </footer>
     </div>
+    <script>
+        var copy = document.querySelector(".logos-slide").cloneNode(true);
+        document.querySelector(".logos").appendChild(copy);
+    </script>
 </body>
 </html>
