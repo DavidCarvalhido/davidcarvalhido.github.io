@@ -84,7 +84,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 6rem 2rem;
+    padding: 6rem 2rem 0rem;
     gap: 2rem;
     flex-wrap: wrap;
     color: #ebebeb;
@@ -159,7 +159,7 @@ body {
     color: #fff;
     text-align: center;
     padding: 2rem 1rem;
-    margin: 2rem 0; /* space between hero/footer */
+    margin: 0; /* space between hero/footer */
 }
 
 .blue-bar h2 {
@@ -394,7 +394,6 @@ body {
     opacity: 1;
     transform: translateX(-50%) translateY(-4px);
 }
-
 /* Contact Page (end) */
 
 /* Footer (start) */
@@ -651,7 +650,7 @@ body {
     .hero {
         flex-direction: column;
         text-align: center;
-        padding: 2rem 1rem;
+        padding: 2rem 1rem 0rem;
         min-height: calc(100vh - 80px);
         justify-content: center;
         gap: 2rem;
