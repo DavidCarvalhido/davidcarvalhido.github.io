@@ -546,7 +546,7 @@ body {
 }
 
 .footer-name {
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     font-weight: bold;
     color: #3db2ff;
     margin-bottom: 8px;
@@ -564,7 +564,7 @@ body {
 }
 
 .footer-title {
-    font-size: 3.4rem;
+    font-size: 3.0rem;
     font-weight: 700;
     color: #ebebeb;
     letter-spacing: -1px;
@@ -578,8 +578,8 @@ body {
 }
 
 .footer-contacts-title {
-    font-size: 1.6rem;
-    font-weight: 600;
+    font-size: 1.4rem;
+    font-weight: 400;
     color: #e5e7eb;
     margin-bottom: -10px;
 }
