@@ -44,6 +44,100 @@
                 <img src="./public/img/my_portrait.png" alt="David Carvalhido Portait" />
             </div>
         </section>
+        <!-- Blue Bar -->
+        <section class="blue-bar">
+            <h2>Turning Data into Insights</h2>
+        </section>
+        <!-- Skills Section -->
+        <section class="skills-section">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <!-- Skill 1 -->
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="skill-info">
+                        <h3>Data Engineering</h3>
+                        <p>Building and maintaining scalable data pipelines and ETL processes.</p>
+                    </div>
+                </div>
+                <!-- Skill 2 -->
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-table"></i>
+                    </div>
+                    <div class="skill-info">
+                        <h3>SQL</h3>
+                        <p>Designing and optimizing queries for relational databases.</p>
+                    </div>
+                </div>
+                <!-- Skill 3 -->
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <div class="skill-info">
+                        <h3>Python</h3>
+                        <p>Data transformation, automation, and scripts development.</p>
+                    </div>
+                </div>
+                <!-- Skill 4 -->
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <div class="skill-info">
+                        <h3>Cloud Computing</h3>
+                        <p>Deploying data solutions in the GCP environment.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Featured Projects Section -->
+        <section class="featured-projects">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <!--<img src="./public/img/projects/project2.png" alt="Project 2">-->
+                    <h3>Data Pipeline with Pentaho, Python & MySQL</h3>
+                     <p>Automated data ingestion pipelines using Pentaho Data Integration, Python and MySQL for storage.</p>
+                    <a href="./projects.html" class="btn-small">Read More</a>
+                </div>
+                <div class="project-card">
+                    <!-- <img src="./public/img/projects/project1.png" alt="Project 1"> -->
+                    <h3>ETL Pipeline with Airflow & Streaming with Kafka</h3>
+                    <p>Implemented batch data pipeline using Apache Airflow and Python for scheduling plus Kafka and Spark for data streaming.</p>
+                    <!-- <p>Implemented real-time data pipeline using Kafka and Spark Streaming.</p> -->
+                    <a href="./projects.html" class="btn-small">Read More</a>
+                </div>
+                <div class="project-card">
+                    <!-- <img src="./public/img/projects/project3.png" alt="Project 3"> -->
+                    <h3>Predictive Modeling with Machine Learning</h3>
+                    <p>Built a predictive model with Python, Numpy and scikit-learn to forecast outcomes and generate insights.</p> 
+                    <a href="./projects.html" class="btn-small">Read More</a>
+                </div>
+            </div>
+        </section>
+        <!-- Tools Carousel -->
+        <section class="tools-carousel">
+            <div class="logos">
+                <div class="logos-slide">
+                    <img src="./public/logos/python-logo.svg" alt="Python Logo" />
+                    <img src="./public/logos/postgresql-logo.svg" alt="PostgreSQL Logo" />
+                    <img src="./public/logos/gcp-logo.svg" alt="GCP Logo" />
+                    <img src="./public/logos/power-bi-logo.svg" alt="Power BI Logo" />
+                    <img src="./public/logos/pentaho-logo.svg" alt="Pentaho Logo" />
+                    <img src="./public/logos/apache-airflow-logo.svg" alt="Apache Airflow Logo" />
+                    <img src="./public/logos/apache-spark-logo.svg" alt="Apache Spark Logo" />
+                    <img src="./public/logos/apache-kafka.svg" alt="Apache Kafka Logo" />
+                    <img src="./public/logos/mysql-logo.svg" alt="MySQL Logo" />
+                    <img src="./public/logos/numpy-logo.svg" alt="Numpy Logo" />
+                    <img src="./public/logos/pandas-logo.svg" alt="Pandas Logo" />
+                    <img src="./public/logos/git-logo.svg" alt="Git Logo" />
+                </div>
+            </div>
+        </section>
         <!-- Footer -->
         <footer class="footer-site">
             <div class="footer-container">
@@ -78,5 +172,9 @@
             </div>
         </footer>
     </div>
+    <script>
+        var copy = document.querySelector(".logos-slide").cloneNode(true);
+        document.querySelector(".logos").appendChild(copy);
+    </script>
 </body>
 </html>
