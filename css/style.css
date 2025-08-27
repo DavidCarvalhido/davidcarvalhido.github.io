@@ -225,11 +225,80 @@ body {
 }
 /* Skills Section (end) */
 
+/* Featured Projects Section (start) */
+.featured-projects {
+    padding: 60px 20px;
+    background: #ffffff;
+    text-align: center;
+}
+
+.featured-projects .section-title {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #0d47a1;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.project-card {
+    background: #f9f9f9;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.project-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.project-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #0d47a1;
+}
+
+.project-card p {
+    font-size: 0.95rem;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.project-card .btn-small {
+    display: inline-block;
+    padding: 8px 16px;
+    background: #0d47a1;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.project-card .btn-small:hover {
+    background: #1565c0;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+/* Featured Projects Section (end) */
+
 /* Index image carousel (start) */
 .tools-carousel {
     width: 100%;
     overflow: hidden;
-    background: #040101;
+    background: #3db2ff;
     padding: 1.5rem 0;
 }
 
