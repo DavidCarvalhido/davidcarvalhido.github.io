@@ -753,6 +753,17 @@ body {
         font-size: 1rem;
     }
 
+    .skills-section {
+        padding: 4rem 1.1rem;
+        background-color: #f9fafb;
+    }
+
+    .skills-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 1.5rem;
+    }
+
     /* Contact Page (start) */
     .contact-section {
         flex-direction: column;
