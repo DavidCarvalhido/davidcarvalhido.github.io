@@ -736,9 +736,9 @@ body {
     }
 
     .hamburger-toggle {
-        position: fixed;
+        position: absolute;
         right: 1rem;
-        top: 1rem;
+        top: .7rem;
         display: block;
         width: 48px;
         height: 48px;
