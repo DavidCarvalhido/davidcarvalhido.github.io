@@ -366,6 +366,75 @@ body {
     display: none;
 }
 
+/* About Section (start) */
+.about-section {
+    padding: 80px 20px;
+    background: #0f172a; /* mesmo tom escuro usado no resto */
+    color: #ebebeb;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1100px;
+    margin: 0 auto;
+    flex-wrap: wrap; /* permite stack em mobile */
+}
+
+.about-photo {
+    flex: 1 1 280px;
+    text-align: center;
+}
+
+.about-photo img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #3db2ff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.about-text {
+    flex: 2 1 500px;
+}
+
+.about-text h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.about-text p {
+    margin-bottom: 16px;
+    line-height: 1.7;
+    font-size: 16px;
+    color: #dcdcdc;
+}
+
+/* Botão CV */
+.about-text .btn {
+    display: inline-block;
+    background: #3db2ff;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.about-text .btn i {
+    margin-right: 8px;
+}
+
+.about-text .btn:hover {
+    background: #2491d8;
+}
+/* About Section (end) */
+
 /* Contact Page (start) */
 .contact-section {
     display: flex;
@@ -832,6 +901,17 @@ body {
         grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
         gap: 1.5rem;
     }
+
+    /* About Section (start) */
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-text {
+        margin-top: 20px;
+    }
+    /* About Section (end) */
 
     /* Contact Page (start) */
     .contact-section {
