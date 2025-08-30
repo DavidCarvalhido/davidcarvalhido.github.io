@@ -433,6 +433,10 @@ body {
 .about-text .btn:hover {
     background: #2491d8;
 }
+
+hr {
+    width: 8rem;
+}
 /* About Section (end) */
 
 /* Contact Page (start) */
