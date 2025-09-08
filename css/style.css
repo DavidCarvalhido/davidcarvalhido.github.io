@@ -434,6 +434,12 @@ body {
     background: #2491d8;
 }
 
+.line-section {
+    padding: 20px 20px;
+    background: #0f172a; /* mesmo tom escuro usado no resto */
+    color: #ebebeb;
+}
+
 hr {
     width: 8rem;
 }
@@ -1008,11 +1014,13 @@ hr {
     pointer-events: auto;
 }
 
-
-
-
-
 /* Timeline About Page (start) */
+.timeline-section {
+    padding: 20px 20px;
+    background: #0f172a;
+    color: #ebebeb;
+}
+
 .timeline-container {
     max-width: 900px;
     margin: 0 auto;
@@ -1047,9 +1055,8 @@ hr {
 .timeline-item::before {
     content: '';
     position: absolute;
-    top: 50%;
+    top: 25%;
     left: 0;
-    /* Muda de 50% para 100% */
     width: 16px;
     height: 16px;
     background-color: #2c3e50;
@@ -1060,8 +1067,9 @@ hr {
 }
 
 .timeline-content {
-    background-color: #fff;
+    background-color: #0f172a;
     padding: 20px;
+    border: 2px #3db2ff solid;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: relative;
@@ -1078,7 +1086,7 @@ hr {
 }
 
 .timeline-content h2 {
-    color: #2c3e50;
+    color: #ebebeb;
     font-size: 1.2em;
 }
 
