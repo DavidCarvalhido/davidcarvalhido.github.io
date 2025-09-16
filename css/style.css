@@ -485,7 +485,7 @@ hr {
 .timeline-item::before {
     content: '';
     position: absolute;
-    top: 25%;
+    top: 35px;
     left: 10px;
     width: 16px;
     height: 16px;
@@ -494,6 +494,14 @@ hr {
     border-radius: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
+}
+
+.timeline-item ul {
+    padding: 0 16px;
+}
+
+.timeline-item ul li {
+    margin-bottom: 10px;
 }
 
 .timeline-content {
